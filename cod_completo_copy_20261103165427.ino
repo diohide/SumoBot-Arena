@@ -53,26 +53,34 @@ const int SENSOR_TRAS = 13;
 const int VEL_FRENTE_ESQ = 255;
 const int VEL_FRENTE_DIR = 255;
 const int VELOCIDADE_GIRO = 255;
-const int ATAQUE_LEVE_ESQ = 128;
-const int ATAQUE_LEVE_DIR = 113;
-const int ATAQUE_MEDIO_ESQ = 190;
-const int ATAQUE_MEDIO_DIR = 200;
+const int ATAQUE_LEVE_ESQ = 255;
+const int ATAQUE_LEVE_DIR = 255;
+const int ATAQUE_MEDIO_ESQ = 255;
+const int ATAQUE_MEDIO_DIR = 255;
 const int ATAQUE_MAX_ESQ = 255;
-const int ATAQUE_MAX_DIR = 240;
+const int ATAQUE_MAX_DIR = 255;
 const int VEL_ESQ_RE = 255;
 const int VEL_DIR_RE = 255;
+
+
+//const int ATAQUE_LEVE_ESQ = 128;
+//const int ATAQUE_LEVE_DIR = 113;
+//const int ATAQUE_MEDIO_ESQ = 190;
+//const int ATAQUE_MEDIO_DIR = 200;
+//const int ATAQUE_MAX_ESQ = 255;
+//const int ATAQUE_MAX_DIR = 240;
 
 // ============================================================
 // 3. TEMPOS (milissegundos, exceto TIMEOUT_ECHO)
 // ============================================================
 const unsigned long TEMPO_INICIO = 5000;
 const unsigned long TEMPO_ABERTURA_FRENTE = 1500; // valor real do codigo 2
-const unsigned long TEMPO_GIRO_130 = 1200;
+const unsigned long TEMPO_GIRO_130 = 550;
 const unsigned long TEMPO_FRENTE = 500;
 const unsigned long TEMPO_GIRO_45 = 500;
 const unsigned long INTERVALO_SENSOR = 50;
 const unsigned long TIMEOUT_ECHO = 12000; // microssegundos
-const unsigned long TEMPO_RE = 1500; // solicitado anteriormente; codigo 1 tinha 900
+const unsigned long TEMPO_RE = 950; // solicitado anteriormente; codigo 1 tinha 900
 const unsigned long CONFIRMACAO_BORDA = 30;
 const unsigned long TEMPO_REARME = 100;
 const unsigned long INTERVALO_SERIAL = 500;
